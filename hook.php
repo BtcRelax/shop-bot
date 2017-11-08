@@ -12,8 +12,8 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Add you bot's API key and name
-$bot_api_key  = 'your:bot_api_key';
-$bot_username = 'username_bot';
+$bot_api_key  = '473753856:AAFAJgfymmps-gIrLdDLbi18tzBtQ93BXZE';
+$bot_username = 'BitGanjBot';
 
 // Define all IDs of admin users in this array (leave as empty array if not used)
 $admin_users = [
@@ -44,12 +44,12 @@ try {
     $telegram->enableAdmins($admin_users);
 
     // Enable MySQL
-    //$telegram->enableMySql($mysql_credentials);
+    $telegram->enableMySql($mysql_credentials);
 
     // Logging (Error, Debug and Raw Updates)
-    //Longman\TelegramBot\TelegramLog::initErrorLog(__DIR__ . "/{$bot_username}_error.log");
-    //Longman\TelegramBot\TelegramLog::initDebugLog(__DIR__ . "/{$bot_username}_debug.log");
-    //Longman\TelegramBot\TelegramLog::initUpdateLog(__DIR__ . "/{$bot_username}_update.log");
+    Longman\TelegramBot\TelegramLog::initErrorLog(__DIR__ . "/{$bot_username}_error.log");
+    Longman\TelegramBot\TelegramLog::initDebugLog(__DIR__ . "/{$bot_username}_debug.log");
+    Longman\TelegramBot\TelegramLog::initUpdateLog(__DIR__ . "/{$bot_username}_update.log");
 
     // If you are using a custom Monolog instance for logging, use this instead of the above
     //Longman\TelegramBot\TelegramLog::initialize($your_external_monolog_instance);

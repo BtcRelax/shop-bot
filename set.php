@@ -9,11 +9,11 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Add you bot's API key and name
-$bot_api_key  = 'your:bot_api_key';
-$bot_username = 'username_bot';
+$bot_api_key  = '473753856:AAFAJgfymmps-gIrLdDLbi18tzBtQ93BXZE';
+$bot_username = 'BitGanjBot';
 
 // Define the URL to your hook.php file
-$hook_url     = 'https://your-domain/path/to/hook.php';
+$hook_url     = 'https://shop.btcrelax.xyz/bot/hook.php';
 
 try {
     // Create Telegram API object

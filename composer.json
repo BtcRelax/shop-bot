@@ -1,18 +1,18 @@
 {
-    "name": "telegram-bot/example-bot",
+    "name": BtcRelax/BitGanjBot",
     "type": "project",
-    "description": "PHP Telegram Bot Example",
+    "description": "BitGanj PHP Telegram Bot",
     "keywords": ["telegram", "bot", "example"],
     "license": "MIT",
-    "homepage": "https://github.com/php-telegram-bot/example-bot",
+    "homepage": "https://github.com/BtcRelax/TelegramBot",
     "support": {
-        "issues": "https://github.com/php-telegram-bot/example-bot/issues",
-        "source": "https://github.com/php-telegram-bot/example-bot"
+        "issues": "https://github.com/BtcRelax/TelegramBot/issues",
+        "source": "https://github.com/BtcRelax/TelegramBot"
     },
     "authors": [
         {
-            "name": "PHP Telegram Bot Team",
-            "homepage": "https://github.com/php-telegram-bot/example-bot/graphs/contributors",
+            "name": "Jah",
+            "homepage": "https://github.com/BtcRelax/TelegramBot/graphs/contributors",
             "role": "Developer"
         }
     ],
