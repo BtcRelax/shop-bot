@@ -1,5 +1,5 @@
 {
-    "name": BtcRelax/BitGanjBot",
+    "name": "BtcRelax/BitGanjBot",
     "type": "project",
     "description": "BitGanj PHP Telegram Bot",
     "keywords": ["telegram", "bot", "example"],
